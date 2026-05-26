@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Windows on XU Academic Research</title><link>http://xuzikuan12.github.io/tags/windows/</link><description>Recent content in Windows on XU Academic Research</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 26 May 2023 14:11:01 +0800</lastBuildDate><atom:link href="http://xuzikuan12.github.io/tags/windows/index.xml" rel="self" type="application/rss+xml"/><item><title>Acrobat</title><link>http://xuzikuan12.github.io/blog/acrobat/</link><pubDate>Fri, 26 May 2023 14:11:01 +0800</pubDate><guid>http://xuzikuan12.github.io/blog/acrobat/</guid><description>&lt;h2 id="印前检查"&gt;印前检查&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://blog.csdn.net/qq_40692274/article/details/124990326"target="_blank" rel="noopener noreferrer"&gt;
+ Adobe Acrobat 报错处理：无法处理页面，因为“页面捕捉”识别服务发生错误
+&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;新版的 64 位 AcrobatQ 2022 基本上都报错，原因是安装时没有选择&amp;quot;印前检查&amp;quot;服务&lt;br&gt;
+(1) 有安装包的小伙伴直接打开安装包，然后参考 (3) ;&lt;br&gt;
+(2) 没有安装包的小伙伴进入 控制面板 -&amp;gt; 软件卸载界面，选中Acrobat右键-&amp;gt;&amp;ldquo;更改&amp;rdquo;(不是卸载，是更改!)再进行(3);&lt;br&gt;
+(3) 选择&amp;quot;安装&amp;quot;，然后&amp;quot;下一步&amp;quot;，在自定义安装界面，把&amp;quot;可选功能&amp;quot;和&amp;quot;印前检查&amp;quot;两项都选中即可，完成安装就能解决问题。&lt;/p&gt;</description></item><item><title>Windows 远程桌面连接</title><link>http://xuzikuan12.github.io/blog/windows-%E8%BF%9C%E7%A8%8B%E6%A1%8C%E9%9D%A2%E8%BF%9E%E6%8E%A5/</link><pubDate>Mon, 10 Apr 2023 10:04:03 +0800</pubDate><guid>http://xuzikuan12.github.io/blog/windows-%E8%BF%9C%E7%A8%8B%E6%A1%8C%E9%9D%A2%E8%BF%9E%E6%8E%A5/</guid><description>&lt;h2 id="依赖"&gt;依赖&lt;/h2&gt;
+&lt;p&gt;Windows 专业版：可以被远程控制
+&lt;a href="https://tailscale.com/"target="_blank" rel="noopener noreferrer"&gt;
+ tailscale
+&lt;/a&gt;
+：免费组网，将不在同一局域网的两台设备连接起来，基于 &lt;a href="https://github.com/WireGuard"target="_blank" rel="noopener noreferrer"&gt;
+ Wiregard
+&lt;/a&gt;
+&lt;/p&gt;
+&lt;h3 id="安卓客户端"&gt;安卓客户端&lt;/h3&gt;
+&lt;p&gt;外网下载不便，这里放上备份&lt;br&gt;
+&lt;a href="https://pan.cstcloud.cn/s/nWzJOA2xQIg"target="_blank" rel="noopener noreferrer"&gt;
+ &lt;del&gt;RD client&lt;/del&gt;
+&lt;/a&gt;
+ 已失效
+&lt;a href="https://pan.cstcloud.cn/s/k61aweGQSGY"target="_blank" rel="noopener noreferrer"&gt;
+ &lt;del&gt;tailscale&lt;/del&gt;
+&lt;/a&gt;
+ 已失效&lt;/p&gt;</description></item><item><title>Git 使用心得</title><link>http://xuzikuan12.github.io/blog/git-%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97/</link><pubDate>Sun, 06 Sep 2020 00:00:00 +0000</pubDate><guid>http://xuzikuan12.github.io/blog/git-%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97/</guid><description>&lt;p&gt;Git 很强大，因此要好好学习 Git 的各种实用功能。&lt;/p&gt;
+&lt;h2 id="1-定制-git-log-打印效果"&gt;1. 定制 git log 打印效果&lt;/h2&gt;
+&lt;p&gt;直接上命令：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; git log --color --pretty&lt;span style="color:#f92672"&gt;=&lt;/span&gt;format:&lt;span style="color:#e6db74"&gt;&amp;#34;%C(yellow)%h%Creset -%Cred%d%Creset %s %Cgreen(%ar)%Creset %C(bold blue)&amp;lt;%an&amp;gt;%Creset&amp;#34;&lt;/span&gt; -12 --graph
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;%Cred，%Cgreen，%Cblue：这几个可以直接加颜色；&lt;/p&gt;
+&lt;p&gt;%C(yellow)，%C(bold blue)，……：其他的颜色要用括号；&lt;/p&gt;
+&lt;p&gt;其他内容参照其他博客吧。&lt;/p&gt;
+&lt;p&gt;效果如下：&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://xuzikuan12.github.io/blog/git-%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97/1.png"
+ alt="custom effect of git log"
+ 
+&gt;
+&lt;/p&gt;
+&lt;h2 id="2-rebase-合并-commits"&gt;2. rebase 合并 commits&lt;/h2&gt;
+&lt;p&gt;当在本地操作的时候，通常不会一个 commit 解决问题，而是要修改好几次才能完成。也就会在本地提交好多次，后面的提交通常都是小修小补。&lt;/p&gt;
+&lt;p&gt;这时如果能把这些为了一个功能而做的提交给合并了就好了。&lt;/p&gt;
+&lt;p&gt;rebase 就是来干这个的。命令为：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git rebase -i HEAD~n
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;-i，表示由用户来指定如何合并&lt;/p&gt;
+&lt;p&gt;n，表示数量&lt;/p&gt;
+&lt;p&gt;上面的命令是最基本的，表示把最近提交的 n 个提交包括进来，等待下一步操作。&lt;/p&gt;
+&lt;p&gt;下一步的界面如下：&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://xuzikuan12.github.io/blog/git-%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97/2.png"
+ alt="folder limit"
+ 
+&gt;
+&lt;/p&gt;
+&lt;p&gt;上面为你包含的最近的 3 次 commits。&lt;/p&gt;
+&lt;p&gt;前面的 pick 代表原封不动保留这次 commit，可以换成其他的，上面图中有对其他选项的说明。&lt;/p&gt;
+&lt;p&gt;这里我就用到了 squash，将选中的 commit 合并到前一个 commit，其他选项看起来很危险的样子，就不试试了。&lt;/p&gt;
+&lt;p&gt;完事儿没有 conflict 的话，合并就结束了，然后会让你选一下提交的备注，默认就是合并所有的备注。如图：&lt;/p&gt;</description></item><item><title>Windows defender 使用心得</title><link>http://xuzikuan12.github.io/blog/windows-defender-%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97/</link><pubDate>Thu, 03 Sep 2020 00:00:00 +0000</pubDate><guid>http://xuzikuan12.github.io/blog/windows-defender-%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97/</guid><description>&lt;p&gt;电脑日常裸奔，所以希望能够利用好自带的defender。&lt;/p&gt;
+&lt;h2 id="1-文件夹限制访问"&gt;1. 文件夹限制访问&lt;/h2&gt;
+&lt;p&gt;&lt;img src="http://xuzikuan12.github.io/blog/windows-defender-%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97/1.png"
+ alt="folder limit"
+ 
+&gt;
+&lt;/p&gt;
+&lt;p&gt;希望可以通过这个功能来防止病毒篡改系统文件。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://xuzikuan12.github.io/blog/windows-defender-%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97/2.png"
+ alt="folder limit"
+ 
+&gt;
+&lt;/p&gt;
+&lt;p&gt;默认会保护Windows系统文件夹，同时还是添加User文件夹。&lt;/p&gt;
+&lt;p&gt;我自己添加了自己的工作文件。&lt;/p&gt;
+&lt;p&gt;这时一些工作要用的软件会被defender限制访问，可以通过添加允许来保证正常使用。&lt;/p&gt;
+&lt;p&gt;但是，如果是代码脚本运行的话，会报错，尝试了添加python.exe，代码可以正常使用。&lt;/p&gt;
+&lt;p&gt;但是*2，git不能用，结果都不行。看这报错。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://xuzikuan12.github.io/blog/windows-defender-%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97/3.png"
+ alt="error"
+ 
+&gt;
+&lt;/p&gt;
+&lt;p&gt;后来想起来，我用scoop管理软件，默认目录是current连接符，而不是真实的目录。&lt;/p&gt;
+&lt;p&gt;于是一波添加，问题解决。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://xuzikuan12.github.io/blog/windows-defender-%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97/4.png"
+ alt="exception"
+ 
+&gt;
+&lt;/p&gt;</description></item><item><title>Imagemagick 的使用</title><link>http://xuzikuan12.github.io/blog/imagemagick-%E7%9A%84%E4%BD%BF%E7%94%A8/</link><pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate><guid>http://xuzikuan12.github.io/blog/imagemagick-%E7%9A%84%E4%BD%BF%E7%94%A8/</guid><description>&lt;p&gt;Imagemagick 是一个强大的命令行图片处理工具，它可以实现众多的功能。&lt;br&gt;
+但是，作为一个合格的小白，我只使用它的批量转换功能，惭愧。&lt;br&gt;
+可以看这个链接学习各种命令行：&lt;a href="https://imagemagick.org/script/command-line-processing.php"target="_blank" rel="noopener noreferrer"&gt;
+ https://imagemagick.org/script/command-line-processing.php
+&lt;/a&gt;
+&lt;/p&gt;
+&lt;h2 id="1-jpeg-to-jpg"&gt;1. jpeg to jpg&lt;/h2&gt;
+&lt;p&gt;把当前目录的 jpeg 图片转换成 jpg，并且按照数字 000-999 来命名&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;magick *.jpeg %03d.jpg
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="2-批量压缩本地图片"&gt;2. 批量压缩本地图片&lt;/h2&gt;
+&lt;p&gt;我以前也不理解为什么要压缩图片，保留原图不好么。&lt;br&gt;
+后来几件事让我的观念有所转变。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;首先，现在一张照片实在是太大了，动辄 5Mb 以上。目前各类免费的个人云服务空间大概在 5 Gb~15 Gb 左右。存照片已经隐约不够了，再拍几个记录生活的小视频就更捉襟见肘了。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;其次，我了解到把图片压缩85%的画质损伤肉眼是很难分辨的，但是带来的体积缩小是惊人的，约 3~4 倍（直接除的那种）。谷歌就据此推出了高画质无限空间存储服务。&lt;br&gt;
+鉴于目前离不开小米的 MIUI 系统，且云服务只有 14 Gb，我开始考虑自己手动压缩照片和视频了。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;下面记录下批量压缩照片的bat脚本：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;@echo off
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;for&lt;/span&gt; /f &lt;span style="color:#e6db74"&gt;&amp;#34;tokens=1,2 delims=.&amp;#34;&lt;/span&gt; %%i in &lt;span style="color:#f92672"&gt;(&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#39;dir /b input&amp;#39;&lt;/span&gt;&lt;span style="color:#f92672"&gt;)&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;do&lt;/span&gt; &lt;span style="color:#f92672"&gt;(&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; echo %%i.%%j
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; magick .&lt;span style="color:#ae81ff"&gt;\i&lt;/span&gt;nput&lt;span style="color:#ae81ff"&gt;\%&lt;/span&gt;%i.%%j -quality &lt;span style="color:#ae81ff"&gt;85&lt;/span&gt; .&lt;span style="color:#ae81ff"&gt;\o&lt;/span&gt;utput&lt;span style="color:#ae81ff"&gt;\%&lt;/span&gt;%i-shink.jpg
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;pause
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;目录结构：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;D:&lt;span style="color:#ae81ff"&gt;\C&lt;/span&gt;odes&lt;span style="color:#ae81ff"&gt;\T&lt;/span&gt;est&amp;gt;dir /s
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; 驱动器 D 中的卷是 Software
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; 卷的序列号是 1004-730F
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; D:&lt;span style="color:#ae81ff"&gt;\C&lt;/span&gt;odes&lt;span style="color:#ae81ff"&gt;\T&lt;/span&gt;est 的目录
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;2020/09/08 16:53 &amp;lt;DIR&amp;gt; .
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;2020/09/08 16:53 &amp;lt;DIR&amp;gt; ..
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;2020/09/08 16:33 &amp;lt;DIR&amp;gt; input
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;2020/09/08 16:52 &amp;lt;DIR&amp;gt; output
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;2020/09/08 16:51 &lt;span style="color:#ae81ff"&gt;156&lt;/span&gt; quality85.bat
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#ae81ff"&gt;1&lt;/span&gt; 个文件 &lt;span style="color:#ae81ff"&gt;156&lt;/span&gt; 字节
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; D:&lt;span style="color:#ae81ff"&gt;\C&lt;/span&gt;odes&lt;span style="color:#ae81ff"&gt;\T&lt;/span&gt;est&lt;span style="color:#ae81ff"&gt;\i&lt;/span&gt;nput 的目录
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;2020/09/08 16:33 &amp;lt;DIR&amp;gt; .
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;2020/09/08 16:33 &amp;lt;DIR&amp;gt; ..
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;2020/07/23 21:41 12,404,173 6ad3c54cc3aa767dfdf593869793764aed248b2b.jpg
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#ae81ff"&gt;1&lt;/span&gt; 个文件 12,404,173 字节
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; D:&lt;span style="color:#ae81ff"&gt;\C&lt;/span&gt;odes&lt;span style="color:#ae81ff"&gt;\T&lt;/span&gt;est&lt;span style="color:#ae81ff"&gt;\o&lt;/span&gt;utput 的目录
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;2020/09/08 16:52 &amp;lt;DIR&amp;gt; .
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;2020/09/08 16:52 &amp;lt;DIR&amp;gt; ..
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;2020/09/08 16:51 3,040,469 6ad3c54cc3aa767dfdf593869793764aed248b2b-shink.jpg
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#ae81ff"&gt;1&lt;/span&gt; 个文件 3,040,469 字节
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; 所列文件总数:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#ae81ff"&gt;3&lt;/span&gt; 个文件 15,444,798 字节
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#ae81ff"&gt;8&lt;/span&gt; 个目录 365,355,732,992 可用字节
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;把要压缩的照片放到 input 文件夹下，最终在 output 目录下生成压缩后的照片，后缀 -shrink.jpg。&lt;br&gt;
+这终究只是暂时缓解而已，还是寄希望于小米云服务可以提供高画质无限空间存储服务吧。&lt;/p&gt;</description></item><item><title>Windows 的 bat 的使用</title><link>http://xuzikuan12.github.io/blog/windows-%E7%9A%84-bat-%E7%9A%84%E4%BD%BF%E7%94%A8/</link><pubDate>Mon, 31 Aug 2020 00:00:00 +0000</pubDate><guid>http://xuzikuan12.github.io/blog/windows-%E7%9A%84-bat-%E7%9A%84%E4%BD%BF%E7%94%A8/</guid><description>&lt;p&gt;bat 作为批处理非常常用。&lt;/p&gt;
+&lt;p&gt;在使用过程中经常遇到一些问题，或者从偶尔别处会习得一些小技巧。&lt;/p&gt;
+&lt;p&gt;但自己毕竟不是吃这碗饭的，多日不用就会忘记，因此需要“记录在案”。&lt;/p&gt;
+&lt;h2 id="1-关于-"&gt;1. 关于 &amp;lt;&lt;/h2&gt;
+&lt;p&gt;不知道是我书读的少，还是大家觉得&amp;lt;的使用太基础了，大家都不讲这东西。应该还是前者吧。&lt;/p&gt;
+&lt;p&gt;当你在 cmd 中运行一个程序或者脚本的时候，有时在过程中还会让你输入一些参数，当这些参数有规律且重复又巨量的时候，手动输入会变得很煎熬。&lt;/p&gt;
+&lt;p&gt;这时可以用 &amp;lt; 来指定&lt;strong&gt;某文件&lt;/strong&gt;作为输入。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;某文件&lt;/strong&gt;中按行来存储参数。&lt;/p&gt;
+&lt;p&gt;比如&lt;strong&gt;某 b站下载脚本&lt;/strong&gt;就需要以下参数：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;文件名：unattended.txt
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;----------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;https://space.bilibili.com/5900635/video
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;a
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;y
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#ae81ff"&gt;3&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;y
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;y
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;y
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;只要再新建一个 bat 文件写上如下代码：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;文件名：unattended.bat
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;start.exe&amp;lt;unattended.txt
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;以后只要双击运行 unattended.bat 即可。&lt;/p&gt;</description></item><item><title>Scoop 使用心得</title><link>http://xuzikuan12.github.io/blog/scoop-%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97/</link><pubDate>Fri, 17 Jul 2020 00:00:00 +0000</pubDate><guid>http://xuzikuan12.github.io/blog/scoop-%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97/</guid><description>&lt;p&gt;Scoop 作为 Windows 平台的包管理工具，足够满足我的需求了，因此深度使用了一段时间，记下心得。&lt;/p&gt;
+&lt;h2 id="1-安装"&gt;1. 安装&lt;/h2&gt;
+&lt;p&gt;安装非常方便&lt;/p&gt;
+&lt;h2 id="2-配套终端"&gt;2. 配套终端&lt;/h2&gt;
+&lt;p&gt;scoop 是命令行工具，首先要找一个合适的终端。
+网上大家都推荐的是windows terminal，配合一些git的插件，看着确实漂亮。&lt;br&gt;
+但是我不太喜欢那种风格，目前在用的是git-bash。搭配cmd执行一些命令行。&lt;/p&gt;
+&lt;h2 id="3-使用心得"&gt;3. 使用心得&lt;/h2&gt;
+&lt;h3 id="1-删除指定版本软件的缓存"&gt;1. 删除指定版本软件的缓存&lt;/h3&gt;
+&lt;h3 id="scoop-cache-rm-pycharm20201"&gt;scoop cache rm pycharm#2020.1&lt;/h3&gt;
+&lt;p&gt;该指令可用来删除指定版本的缓存。之前（2020年8月28日）在网上查到的都是用@，但是我用了发现不行，可能是软件有过一次更新。
+后来再翻看scoop/cache文件夹下面的文件时，发现都是这样的：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;pycharm#2020.2.1#https_download.jetbrains.com_python_pycharm-community-2020.2.1.exe_dl
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;于是我就试了一下&lt;code&gt;#&lt;/code&gt;，发现可以。&lt;/p&gt;</description></item></channel></rss>

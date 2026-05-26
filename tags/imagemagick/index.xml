@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Imagemagick on XU Academic Research</title><link>http://xuzikuan12.github.io/tags/imagemagick/</link><description>Recent content in Imagemagick on XU Academic Research</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Tue, 01 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://xuzikuan12.github.io/tags/imagemagick/index.xml" rel="self" type="application/rss+xml"/><item><title>Imagemagick 的使用</title><link>http://xuzikuan12.github.io/blog/imagemagick-%E7%9A%84%E4%BD%BF%E7%94%A8/</link><pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate><guid>http://xuzikuan12.github.io/blog/imagemagick-%E7%9A%84%E4%BD%BF%E7%94%A8/</guid><description>&lt;p&gt;Imagemagick 是一个强大的命令行图片处理工具，它可以实现众多的功能。&lt;br&gt;
+但是，作为一个合格的小白，我只使用它的批量转换功能，惭愧。&lt;br&gt;
+可以看这个链接学习各种命令行：&lt;a href="https://imagemagick.org/script/command-line-processing.php"target="_blank" rel="noopener noreferrer"&gt;
+ https://imagemagick.org/script/command-line-processing.php
+&lt;/a&gt;
+&lt;/p&gt;
+&lt;h2 id="1-jpeg-to-jpg"&gt;1. jpeg to jpg&lt;/h2&gt;
+&lt;p&gt;把当前目录的 jpeg 图片转换成 jpg，并且按照数字 000-999 来命名&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;magick *.jpeg %03d.jpg
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="2-批量压缩本地图片"&gt;2. 批量压缩本地图片&lt;/h2&gt;
+&lt;p&gt;我以前也不理解为什么要压缩图片，保留原图不好么。&lt;br&gt;
+后来几件事让我的观念有所转变。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;首先，现在一张照片实在是太大了，动辄 5Mb 以上。目前各类免费的个人云服务空间大概在 5 Gb~15 Gb 左右。存照片已经隐约不够了，再拍几个记录生活的小视频就更捉襟见肘了。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;其次，我了解到把图片压缩85%的画质损伤肉眼是很难分辨的，但是带来的体积缩小是惊人的，约 3~4 倍（直接除的那种）。谷歌就据此推出了高画质无限空间存储服务。&lt;br&gt;
+鉴于目前离不开小米的 MIUI 系统，且云服务只有 14 Gb，我开始考虑自己手动压缩照片和视频了。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;下面记录下批量压缩照片的bat脚本：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;@echo off
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;for&lt;/span&gt; /f &lt;span style="color:#e6db74"&gt;&amp;#34;tokens=1,2 delims=.&amp;#34;&lt;/span&gt; %%i in &lt;span style="color:#f92672"&gt;(&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#39;dir /b input&amp;#39;&lt;/span&gt;&lt;span style="color:#f92672"&gt;)&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;do&lt;/span&gt; &lt;span style="color:#f92672"&gt;(&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; echo %%i.%%j
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; magick .&lt;span style="color:#ae81ff"&gt;\i&lt;/span&gt;nput&lt;span style="color:#ae81ff"&gt;\%&lt;/span&gt;%i.%%j -quality &lt;span style="color:#ae81ff"&gt;85&lt;/span&gt; .&lt;span style="color:#ae81ff"&gt;\o&lt;/span&gt;utput&lt;span style="color:#ae81ff"&gt;\%&lt;/span&gt;%i-shink.jpg
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;pause
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;目录结构：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;D:&lt;span style="color:#ae81ff"&gt;\C&lt;/span&gt;odes&lt;span style="color:#ae81ff"&gt;\T&lt;/span&gt;est&amp;gt;dir /s
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; 驱动器 D 中的卷是 Software
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; 卷的序列号是 1004-730F
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; D:&lt;span style="color:#ae81ff"&gt;\C&lt;/span&gt;odes&lt;span style="color:#ae81ff"&gt;\T&lt;/span&gt;est 的目录
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;2020/09/08 16:53 &amp;lt;DIR&amp;gt; .
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;2020/09/08 16:53 &amp;lt;DIR&amp;gt; ..
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;2020/09/08 16:33 &amp;lt;DIR&amp;gt; input
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;2020/09/08 16:52 &amp;lt;DIR&amp;gt; output
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;2020/09/08 16:51 &lt;span style="color:#ae81ff"&gt;156&lt;/span&gt; quality85.bat
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#ae81ff"&gt;1&lt;/span&gt; 个文件 &lt;span style="color:#ae81ff"&gt;156&lt;/span&gt; 字节
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; D:&lt;span style="color:#ae81ff"&gt;\C&lt;/span&gt;odes&lt;span style="color:#ae81ff"&gt;\T&lt;/span&gt;est&lt;span style="color:#ae81ff"&gt;\i&lt;/span&gt;nput 的目录
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;2020/09/08 16:33 &amp;lt;DIR&amp;gt; .
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;2020/09/08 16:33 &amp;lt;DIR&amp;gt; ..
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;2020/07/23 21:41 12,404,173 6ad3c54cc3aa767dfdf593869793764aed248b2b.jpg
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#ae81ff"&gt;1&lt;/span&gt; 个文件 12,404,173 字节
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; D:&lt;span style="color:#ae81ff"&gt;\C&lt;/span&gt;odes&lt;span style="color:#ae81ff"&gt;\T&lt;/span&gt;est&lt;span style="color:#ae81ff"&gt;\o&lt;/span&gt;utput 的目录
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;2020/09/08 16:52 &amp;lt;DIR&amp;gt; .
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;2020/09/08 16:52 &amp;lt;DIR&amp;gt; ..
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;2020/09/08 16:51 3,040,469 6ad3c54cc3aa767dfdf593869793764aed248b2b-shink.jpg
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#ae81ff"&gt;1&lt;/span&gt; 个文件 3,040,469 字节
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; 所列文件总数:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#ae81ff"&gt;3&lt;/span&gt; 个文件 15,444,798 字节
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#ae81ff"&gt;8&lt;/span&gt; 个目录 365,355,732,992 可用字节
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;把要压缩的照片放到 input 文件夹下，最终在 output 目录下生成压缩后的照片，后缀 -shrink.jpg。&lt;br&gt;
+这终究只是暂时缓解而已，还是寄希望于小米云服务可以提供高画质无限空间存储服务吧。&lt;/p&gt;</description></item></channel></rss>

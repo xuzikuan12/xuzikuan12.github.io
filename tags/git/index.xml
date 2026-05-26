@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Git on XU Academic Research</title><link>http://xuzikuan12.github.io/tags/git/</link><description>Recent content in Git on XU Academic Research</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Sun, 06 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://xuzikuan12.github.io/tags/git/index.xml" rel="self" type="application/rss+xml"/><item><title>Git 使用心得</title><link>http://xuzikuan12.github.io/blog/git-%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97/</link><pubDate>Sun, 06 Sep 2020 00:00:00 +0000</pubDate><guid>http://xuzikuan12.github.io/blog/git-%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97/</guid><description>&lt;p&gt;Git 很强大，因此要好好学习 Git 的各种实用功能。&lt;/p&gt;
+&lt;h2 id="1-定制-git-log-打印效果"&gt;1. 定制 git log 打印效果&lt;/h2&gt;
+&lt;p&gt;直接上命令：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; git log --color --pretty&lt;span style="color:#f92672"&gt;=&lt;/span&gt;format:&lt;span style="color:#e6db74"&gt;&amp;#34;%C(yellow)%h%Creset -%Cred%d%Creset %s %Cgreen(%ar)%Creset %C(bold blue)&amp;lt;%an&amp;gt;%Creset&amp;#34;&lt;/span&gt; -12 --graph
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;%Cred，%Cgreen，%Cblue：这几个可以直接加颜色；&lt;/p&gt;
+&lt;p&gt;%C(yellow)，%C(bold blue)，……：其他的颜色要用括号；&lt;/p&gt;
+&lt;p&gt;其他内容参照其他博客吧。&lt;/p&gt;
+&lt;p&gt;效果如下：&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://xuzikuan12.github.io/blog/git-%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97/1.png"
+ alt="custom effect of git log"
+ 
+&gt;
+&lt;/p&gt;
+&lt;h2 id="2-rebase-合并-commits"&gt;2. rebase 合并 commits&lt;/h2&gt;
+&lt;p&gt;当在本地操作的时候，通常不会一个 commit 解决问题，而是要修改好几次才能完成。也就会在本地提交好多次，后面的提交通常都是小修小补。&lt;/p&gt;
+&lt;p&gt;这时如果能把这些为了一个功能而做的提交给合并了就好了。&lt;/p&gt;
+&lt;p&gt;rebase 就是来干这个的。命令为：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git rebase -i HEAD~n
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;-i，表示由用户来指定如何合并&lt;/p&gt;
+&lt;p&gt;n，表示数量&lt;/p&gt;
+&lt;p&gt;上面的命令是最基本的，表示把最近提交的 n 个提交包括进来，等待下一步操作。&lt;/p&gt;
+&lt;p&gt;下一步的界面如下：&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://xuzikuan12.github.io/blog/git-%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97/2.png"
+ alt="folder limit"
+ 
+&gt;
+&lt;/p&gt;
+&lt;p&gt;上面为你包含的最近的 3 次 commits。&lt;/p&gt;
+&lt;p&gt;前面的 pick 代表原封不动保留这次 commit，可以换成其他的，上面图中有对其他选项的说明。&lt;/p&gt;
+&lt;p&gt;这里我就用到了 squash，将选中的 commit 合并到前一个 commit，其他选项看起来很危险的样子，就不试试了。&lt;/p&gt;
+&lt;p&gt;完事儿没有 conflict 的话，合并就结束了，然后会让你选一下提交的备注，默认就是合并所有的备注。如图：&lt;/p&gt;</description></item></channel></rss>

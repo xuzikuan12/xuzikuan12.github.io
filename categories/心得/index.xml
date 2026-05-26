@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>心得 on XU Academic Research</title><link>http://xuzikuan12.github.io/categories/%E5%BF%83%E5%BE%97/</link><description>Recent content in 心得 on XU Academic Research</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Sat, 23 May 2026 01:25:35 +0000</lastBuildDate><atom:link href="http://xuzikuan12.github.io/categories/%E5%BF%83%E5%BE%97/index.xml" rel="self" type="application/rss+xml"/><item><title>测试粘贴图片</title><link>http://xuzikuan12.github.io/blog/%E6%B5%8B%E8%AF%95%E7%B2%98%E8%B4%B4%E5%9B%BE%E7%89%87/</link><pubDate>Sat, 23 May 2026 01:25:35 +0000</pubDate><guid>http://xuzikuan12.github.io/blog/%E6%B5%8B%E8%AF%95%E7%B2%98%E8%B4%B4%E5%9B%BE%E7%89%87/</guid><description>&lt;h2 id="paste-image-插件"&gt;Paste Image 插件&lt;/h2&gt;
+&lt;p&gt;&lt;img src="http://xuzikuan12.github.io/blog/%E6%B5%8B%E8%AF%95%E7%B2%98%E8%B4%B4%E5%9B%BE%E7%89%87/2026-05-23-09-26-27.png"
+ alt="paste image plugin"
+ 
+&gt;
+&lt;/p&gt;
+&lt;h2 id="截图"&gt;截图&lt;/h2&gt;
+&lt;p&gt;只要截图后直接在 vscode 里面粘贴就行，挺方便的。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://xuzikuan12.github.io/blog/%E6%B5%8B%E8%AF%95%E7%B2%98%E8%B4%B4%E5%9B%BE%E7%89%87/2026-05-23-09-55-01.png"
+ alt="test"
+ 
+&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://xuzikuan12.github.io/blog/%E6%B5%8B%E8%AF%95%E7%B2%98%E8%B4%B4%E5%9B%BE%E7%89%87/image.png"
+ alt="就像这样"
+ 
+&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://xuzikuan12.github.io/blog/%E6%B5%8B%E8%AF%95%E7%B2%98%E8%B4%B4%E5%9B%BE%E7%89%87/%7b71739F4A-B66B-4253-AFA3-6B95BC214DEF%7d.png"
+ alt="alt text"
+ 
+&gt;
+&lt;/p&gt;
+&lt;p&gt;但是不知道为什么每次粘贴的文件名都很奇怪&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://xuzikuan12.github.io/blog/%E6%B5%8B%E8%AF%95%E7%B2%98%E8%B4%B4%E5%9B%BE%E7%89%87/image-1.png"
+ alt="alt text"
+ 
+&gt;
+&lt;/p&gt;
+&lt;p&gt;明明设置里都没问题。&lt;/p&gt;</description></item><item><title>PPT 使用心得</title><link>http://xuzikuan12.github.io/blog/ppt-%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97/</link><pubDate>Wed, 10 May 2023 12:47:00 +0800</pubDate><guid>http://xuzikuan12.github.io/blog/ppt-%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97/</guid><description>&lt;h2 id="ppt-中文本框的默认字体"&gt;PPT 中文本框的默认字体&lt;/h2&gt;
+&lt;p&gt;第一步，找个空白页建一个文本框&lt;br&gt;
+第二步，给文本框里的字体调整成你想要的字体和格式&lt;br&gt;
+第三步，右键点击文本框，在弹出的选项栏中找到“设置为默认文本框”&lt;br&gt;
+这样后期增加的任何文本都是你想要的字体格式了&lt;br&gt;
+&lt;a href="https://www.zhihu.com/people/li-sir-71-40"target="_blank" rel="noopener noreferrer"&gt;
+ @李Sir
+&lt;/a&gt;
+&lt;/p&gt;</description></item><item><title>Word 使用技巧</title><link>http://xuzikuan12.github.io/blog/word-%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/</link><pubDate>Tue, 25 Apr 2023 12:38:47 +0800</pubDate><guid>http://xuzikuan12.github.io/blog/word-%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/</guid><description>&lt;p&gt;科研写作中遇到的一些 Word 小技巧，可以提高效率。&lt;/p&gt;
+&lt;h2 id="word-下标替换该怎么操作"&gt;Word 下标替换该怎么操作&lt;/h2&gt;
+&lt;p&gt;原文链接：&lt;a href="https://m.huke88.com/baike/a30034/"target="_blank" rel="noopener noreferrer"&gt;
+ Word下标替换该怎么操作
+&lt;/a&gt;
+&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code class="language-cite" data-lang="cite"&gt;1、首先,我们打开需要操作的Word文档;我们的目标是:在word中,SO2的2全替换成下标的2。 
+2、我们需要选中其中一个SO2后面的2;然后,点击【开始】选项卡中的【下标】,(红色箭头所指出)将其设置为下标。 
+3、接着,我们选中设置为下标格式的SO2。 
+4、按下组合键【Ctrl+H】打开【查找和替换】的对话框;接着,我们点击【全部替换】即可。（注意：^c则表示替换为粘贴板的内容，即将普通的SO2替换为下表格式的） 
+5、返回主文档，发现成功将文档全部SO2替换为下标格式的2。操作完成！
+
+这就是word下标替换的方法，你们学会了吗？还不会的同学一定要好好学习。要知道，现在各种方案或者技术标的内容中，都会涉及到平方、立方的单位符号，也就是我所说的上标符号；因为需要单独设置字体格式，所以一般输入都按正常字体输入m2、m3，这样表达不太标准，所以，我们只要学会了今天分享的课程，操作起来就会很简单啦！下次再见！
+&lt;/code&gt;&lt;/pre&gt;</description></item><item><title>FFmpeg 使用心得</title><link>http://xuzikuan12.github.io/blog/ffmpeg-%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97/</link><pubDate>Wed, 12 Apr 2023 17:47:08 +0800</pubDate><guid>http://xuzikuan12.github.io/blog/ffmpeg-%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97/</guid><description>&lt;h2 id="依赖"&gt;依赖&lt;/h2&gt;
+&lt;p&gt;FFmpeg&lt;/p&gt;
+&lt;h2 id="安装"&gt;安装&lt;/h2&gt;
+&lt;p&gt;使用 &lt;code&gt;scoop&lt;/code&gt; 和 &lt;code&gt;winget&lt;/code&gt; 均可安装&lt;/p&gt;
+&lt;h2 id="音频转换"&gt;音频转换&lt;/h2&gt;
+&lt;p&gt;批量 &lt;code&gt;ape&lt;/code&gt; 转 &lt;code&gt;mp3&lt;/code&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;@echo off &amp;amp; title
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;for&lt;/span&gt; %%a in &lt;span style="color:#f92672"&gt;(&lt;/span&gt;*.ape&lt;span style="color:#f92672"&gt;)&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;do&lt;/span&gt; &lt;span style="color:#f92672"&gt;(&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; ffmpeg -i &lt;span style="color:#e6db74"&gt;&amp;#34;%%~sa&amp;#34;&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;%%~na.mp3&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;pause
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="提取音频"&gt;提取音频&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;ffmpeg -i input.mp4 -vn -c:a copy output.mp3
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;code&gt;-vn&lt;/code&gt;：no video&lt;br&gt;
+&lt;code&gt;-c:a&lt;/code&gt;：code of audio&lt;br&gt;
+&lt;code&gt;copy&lt;/code&gt;：直接复制视频中的原始音频，不涉及编码，速度会很快&lt;/p&gt;
+&lt;h2 id="减小视频体积"&gt;减小视频体积&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;ffmpeg -i input.mp4 -fs 500MB output.mp4
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;ffmpeg -i input.mp4 -r &lt;span style="color:#ae81ff"&gt;20&lt;/span&gt; output.mp4
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;ffmpeg -i input.mp4 -b:v 1000K output.mp4
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;ffmpeg -i input.mp4 -s 1280x720 output.mp4
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;code&gt;-fs&lt;/code&gt;：控制输出文件体积&lt;br&gt;
+&lt;code&gt;-r&lt;/code&gt;：控制帧率&lt;br&gt;
+&lt;code&gt;-b:v&lt;/code&gt;：控制输出视频码率&lt;br&gt;
+&lt;code&gt;-b:a&lt;/code&gt;：控制输出音频码率&lt;br&gt;
+&lt;code&gt;-s&lt;/code&gt;：控制视频分辨率&lt;/p&gt;
+&lt;h2 id="裁剪视频"&gt;裁剪视频&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;ffmpeg -i .&lt;span style="color:#ae81ff"&gt;\2&lt;/span&gt;-1.mp4 -vf crop&lt;span style="color:#f92672"&gt;=&lt;/span&gt;1440:666:0:27 2-1-crop.mp4
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;ffmpeg -i test.mp4 -vf crop=x1:x2:x3:x4 testOK.mp4
+&lt;code&gt;x1&lt;/code&gt;: 输出的宽度，即视频像素宽度
+&lt;code&gt;X2&lt;/code&gt;: 输出的高度，即视频像素高度&lt;br&gt;
+&lt;code&gt;x3&lt;/code&gt;: 需要左边和右边移动的距离，例如5，即左右各扩大5pixe1&lt;br&gt;
+&lt;code&gt;x4&lt;/code&gt;: 需要上下移动的距离，例如5，即上下各扩大5pixel&lt;br&gt;
+&lt;code&gt;x3&lt;/code&gt;的值如果大于&lt;code&gt;x1&lt;/code&gt;与原始视频的宽度差，则只移动&lt;code&gt;x1&lt;/code&gt;与原始视频的宽度差的距离&lt;br&gt;
+&lt;code&gt;x4&lt;/code&gt;的值如果大于&lt;code&gt;x2&lt;/code&gt;与原始视频的高度差，则只移动&lt;code&gt;x2&lt;/code&gt;与原始视频的高度差的距离&lt;br&gt;
+去黑边切去的是画面区域的右侧和下侧。
+&lt;a href="https://blog.csdn.net/starandsea/article/details/121183546"target="_blank" rel="noopener noreferrer"&gt;
+ 【FFmpeg】【gif】命令行工具，将视频转为gif
+&lt;/a&gt;
+&lt;/p&gt;</description></item><item><title>电子版签名制作</title><link>http://xuzikuan12.github.io/blog/%E7%94%B5%E5%AD%90%E7%89%88%E7%AD%BE%E5%90%8D%E5%88%B6%E4%BD%9C/</link><pubDate>Tue, 11 Apr 2023 14:39:30 +0800</pubDate><guid>http://xuzikuan12.github.io/blog/%E7%94%B5%E5%AD%90%E7%89%88%E7%AD%BE%E5%90%8D%E5%88%B6%E4%BD%9C/</guid><description>&lt;h2 id="依赖"&gt;依赖&lt;/h2&gt;
+&lt;p&gt;Photoshop&lt;/p&gt;
+&lt;h2 id="抠图"&gt;抠图&lt;/h2&gt;
+&lt;p&gt;&lt;img src="http://xuzikuan12.github.io/blog/%E7%94%B5%E5%AD%90%E7%89%88%E7%AD%BE%E5%90%8D%E5%88%B6%E4%BD%9C/tuceng.jpg"
+ alt="tuceng"
+ 
+&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;复制图层&lt;/li&gt;
+&lt;li&gt;将原图层隐藏&lt;/li&gt;
+&lt;li&gt;在复制的图层上编辑&lt;/li&gt;
+&lt;li&gt;可以再新建一个纯黑图层做背地，检查抠图质量&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="加粗"&gt;加粗&lt;/h2&gt;
+&lt;p&gt;【滤镜】-&amp;gt;【其他】-&amp;gt;【最小值】&lt;/p&gt;</description></item><item><title>Windows 远程桌面连接</title><link>http://xuzikuan12.github.io/blog/windows-%E8%BF%9C%E7%A8%8B%E6%A1%8C%E9%9D%A2%E8%BF%9E%E6%8E%A5/</link><pubDate>Mon, 10 Apr 2023 10:04:03 +0800</pubDate><guid>http://xuzikuan12.github.io/blog/windows-%E8%BF%9C%E7%A8%8B%E6%A1%8C%E9%9D%A2%E8%BF%9E%E6%8E%A5/</guid><description>&lt;h2 id="依赖"&gt;依赖&lt;/h2&gt;
+&lt;p&gt;Windows 专业版：可以被远程控制
+&lt;a href="https://tailscale.com/"target="_blank" rel="noopener noreferrer"&gt;
+ tailscale
+&lt;/a&gt;
+：免费组网，将不在同一局域网的两台设备连接起来，基于 &lt;a href="https://github.com/WireGuard"target="_blank" rel="noopener noreferrer"&gt;
+ Wiregard
+&lt;/a&gt;
+&lt;/p&gt;
+&lt;h3 id="安卓客户端"&gt;安卓客户端&lt;/h3&gt;
+&lt;p&gt;外网下载不便，这里放上备份&lt;br&gt;
+&lt;a href="https://pan.cstcloud.cn/s/nWzJOA2xQIg"target="_blank" rel="noopener noreferrer"&gt;
+ &lt;del&gt;RD client&lt;/del&gt;
+&lt;/a&gt;
+ 已失效
+&lt;a href="https://pan.cstcloud.cn/s/k61aweGQSGY"target="_blank" rel="noopener noreferrer"&gt;
+ &lt;del&gt;tailscale&lt;/del&gt;
+&lt;/a&gt;
+ 已失效&lt;/p&gt;</description></item><item><title>Hugo + Gitee 搭建静态网站</title><link>http://xuzikuan12.github.io/blog/hugo-gitee-%E6%90%AD%E5%BB%BA%E9%9D%99%E6%80%81%E7%BD%91%E7%AB%99/</link><pubDate>Sun, 09 Apr 2023 20:49:43 +0800</pubDate><guid>http://xuzikuan12.github.io/blog/hugo-gitee-%E6%90%AD%E5%BB%BA%E9%9D%99%E6%80%81%E7%BD%91%E7%AB%99/</guid><description>&lt;h2 id="依赖"&gt;依赖&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;winget&lt;/strong&gt;：包管理工具，较新的 Windows 系统会自带&lt;br&gt;
+&lt;strong&gt;git&lt;/strong&gt;：版本管理工具&lt;br&gt;
+&lt;strong&gt;gitee&lt;/strong&gt;：仓库托管服务（&lt;a href="gitee.com"&gt;
+ gitee.com
+&lt;/a&gt;
+），可免费开启 Gitee Pages 服务，但是不能自定义域名&lt;br&gt;
+&lt;strong&gt;hugo&lt;/strong&gt;：用来生成静态网站&lt;/p&gt;
+&lt;h2 id="git"&gt;Git&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;winget install git
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;记得添加环境变量&lt;/p&gt;
+&lt;h2 id="gitee"&gt;Gitee&lt;/h2&gt;
+&lt;p&gt;注册一个 Gitee 的账户，新建一个与账户同名的仓库，比如：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;gitee.com/xuzikuan12/xuzikuan12
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;这样就可以直接通过 xuzikuan12.gitee.io 访问自己的静态网站了，否则需要通过 xuzikuan12.gitee.io/[仓库名]/ 来访问了。&lt;/p&gt;
+&lt;h2 id="hugo"&gt;Hugo&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;winget install hugo
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Hugo 的使用可以参考&lt;a href="https://www.gohugo.org/"target="_blank" rel="noopener noreferrer"&gt;
+ 这里
+&lt;/a&gt;
+。&lt;/p&gt;
+&lt;h3 id="安装hugo的主题"&gt;安装Hugo的主题&lt;/h3&gt;
+&lt;p&gt;目前用的是这个主题：&lt;a href="https://themes.gohugo.io/themes/hugo-profile/"target="_blank" rel="noopener noreferrer"&gt;
+ hugo-profile
+&lt;/a&gt;
+&lt;br&gt;
+需要好好阅读主题配置文件，理解里面参数的意义：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;themes&lt;span style="color:#ae81ff"&gt;\h&lt;/span&gt;ugo-profile&lt;span style="color:#ae81ff"&gt;\e&lt;/span&gt;xampleSite&lt;span style="color:#ae81ff"&gt;\c&lt;/span&gt;onfig.yaml
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;可以直接把上述的配置文件拷贝用作自己网站的配置文件&lt;br&gt;
+注意一些静态文件的拷贝&lt;/p&gt;
+&lt;h3 id="预览网站"&gt;预览网站&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;hugo server
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="生成静态网站的文件"&gt;生成静态网站的文件&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;hugo
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;默认会生成在 public 文件夹内&lt;/p&gt;
+&lt;h3 id="利用-git-建立仓库并上传"&gt;利用 Git 建立仓库并上传&lt;/h3&gt;
+&lt;p&gt;将 public 文件夹内的文件打包上传至 Gitee&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git config --global user.name &lt;span style="color:#e6db74"&gt;&amp;#34;xxx&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git config --global user.email &lt;span style="color:#e6db74"&gt;&amp;#34;xxx@xxx.cn&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git init
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git status
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git add .
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git commit -m &lt;span style="color:#e6db74"&gt;&amp;#34;new blog/test.md&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git remote add origin &lt;span style="color:#e6db74"&gt;&amp;#34;https://gitee.com/xuzikuan12/xuzikuan12.git&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git push -u origin &lt;span style="color:#e6db74"&gt;&amp;#34;master&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="开启-gitee-page"&gt;开启 Gitee page&lt;/h3&gt;
+&lt;p&gt;可以参考 &lt;a href="https://gitee.com/help/articles/4136"target="_blank" rel="noopener noreferrer"&gt;
+ 这里
+&lt;/a&gt;
+&lt;/p&gt;</description></item><item><title>Windows defender 使用心得</title><link>http://xuzikuan12.github.io/blog/windows-defender-%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97/</link><pubDate>Thu, 03 Sep 2020 00:00:00 +0000</pubDate><guid>http://xuzikuan12.github.io/blog/windows-defender-%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97/</guid><description>&lt;p&gt;电脑日常裸奔，所以希望能够利用好自带的defender。&lt;/p&gt;
+&lt;h2 id="1-文件夹限制访问"&gt;1. 文件夹限制访问&lt;/h2&gt;
+&lt;p&gt;&lt;img src="http://xuzikuan12.github.io/blog/windows-defender-%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97/1.png"
+ alt="folder limit"
+ 
+&gt;
+&lt;/p&gt;
+&lt;p&gt;希望可以通过这个功能来防止病毒篡改系统文件。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://xuzikuan12.github.io/blog/windows-defender-%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97/2.png"
+ alt="folder limit"
+ 
+&gt;
+&lt;/p&gt;
+&lt;p&gt;默认会保护Windows系统文件夹，同时还是添加User文件夹。&lt;/p&gt;
+&lt;p&gt;我自己添加了自己的工作文件。&lt;/p&gt;
+&lt;p&gt;这时一些工作要用的软件会被defender限制访问，可以通过添加允许来保证正常使用。&lt;/p&gt;
+&lt;p&gt;但是，如果是代码脚本运行的话，会报错，尝试了添加python.exe，代码可以正常使用。&lt;/p&gt;
+&lt;p&gt;但是*2，git不能用，结果都不行。看这报错。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://xuzikuan12.github.io/blog/windows-defender-%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97/3.png"
+ alt="error"
+ 
+&gt;
+&lt;/p&gt;
+&lt;p&gt;后来想起来，我用scoop管理软件，默认目录是current连接符，而不是真实的目录。&lt;/p&gt;
+&lt;p&gt;于是一波添加，问题解决。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://xuzikuan12.github.io/blog/windows-defender-%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97/4.png"
+ alt="exception"
+ 
+&gt;
+&lt;/p&gt;</description></item><item><title>Windows 的 bat 的使用</title><link>http://xuzikuan12.github.io/blog/windows-%E7%9A%84-bat-%E7%9A%84%E4%BD%BF%E7%94%A8/</link><pubDate>Mon, 31 Aug 2020 00:00:00 +0000</pubDate><guid>http://xuzikuan12.github.io/blog/windows-%E7%9A%84-bat-%E7%9A%84%E4%BD%BF%E7%94%A8/</guid><description>&lt;p&gt;bat 作为批处理非常常用。&lt;/p&gt;
+&lt;p&gt;在使用过程中经常遇到一些问题，或者从偶尔别处会习得一些小技巧。&lt;/p&gt;
+&lt;p&gt;但自己毕竟不是吃这碗饭的，多日不用就会忘记，因此需要“记录在案”。&lt;/p&gt;
+&lt;h2 id="1-关于-"&gt;1. 关于 &amp;lt;&lt;/h2&gt;
+&lt;p&gt;不知道是我书读的少，还是大家觉得&amp;lt;的使用太基础了，大家都不讲这东西。应该还是前者吧。&lt;/p&gt;
+&lt;p&gt;当你在 cmd 中运行一个程序或者脚本的时候，有时在过程中还会让你输入一些参数，当这些参数有规律且重复又巨量的时候，手动输入会变得很煎熬。&lt;/p&gt;
+&lt;p&gt;这时可以用 &amp;lt; 来指定&lt;strong&gt;某文件&lt;/strong&gt;作为输入。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;某文件&lt;/strong&gt;中按行来存储参数。&lt;/p&gt;
+&lt;p&gt;比如&lt;strong&gt;某 b站下载脚本&lt;/strong&gt;就需要以下参数：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;文件名：unattended.txt
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;----------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;https://space.bilibili.com/5900635/video
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;a
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;y
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#ae81ff"&gt;3&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;y
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;y
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;y
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;只要再新建一个 bat 文件写上如下代码：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;文件名：unattended.bat
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;start.exe&amp;lt;unattended.txt
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;以后只要双击运行 unattended.bat 即可。&lt;/p&gt;</description></item><item><title>Gitpage的一些坑</title><link>http://xuzikuan12.github.io/blog/2020-08-28-tips-about-gitpage/</link><pubDate>Fri, 28 Aug 2020 00:00:00 +0000</pubDate><guid>http://xuzikuan12.github.io/blog/2020-08-28-tips-about-gitpage/</guid><description>&lt;p&gt;Gitpage 还是一个很好的东西，坑只是因为不熟悉而已。&lt;/p&gt;
+&lt;h2 id="1-不需要在本地搭建环境的麻烦用的少"&gt;1. 不需要在本地搭建环境的，麻烦、用的少&lt;/h2&gt;
+&lt;p&gt;Gitpage只需要一些专门文件即可，如下：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-python" data-lang="python"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;_config&lt;span style="color:#f92672"&gt;.&lt;/span&gt;yml 博客配置文档&lt;span style="color:#960050;background-color:#1e0010"&gt;（&lt;/span&gt;包括博客标题&lt;span style="color:#960050;background-color:#1e0010"&gt;、&lt;/span&gt;favicon&lt;span style="color:#960050;background-color:#1e0010"&gt;、&lt;/span&gt;博主 ID&lt;span style="color:#960050;background-color:#1e0010"&gt;、&lt;/span&gt;头像&lt;span style="color:#960050;background-color:#1e0010"&gt;、&lt;/span&gt;描述&lt;span style="color:#960050;background-color:#1e0010"&gt;、&lt;/span&gt;联系方式等基本信息都在这个文档添加或修改&lt;span style="color:#960050;background-color:#1e0010"&gt;）；&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;index&lt;span style="color:#f92672"&gt;.&lt;/span&gt;html 博客架构文档&lt;span style="color:#960050;background-color:#1e0010"&gt;；&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;_includes 博客调用的网页模块&lt;span style="color:#960050;background-color:#1e0010"&gt;（&lt;/span&gt;比如导航栏&lt;span style="color:#960050;background-color:#1e0010"&gt;、&lt;/span&gt;底栏&lt;span style="color:#960050;background-color:#1e0010"&gt;、&lt;/span&gt;博文内容显示&lt;span style="color:#960050;background-color:#1e0010"&gt;、&lt;/span&gt;评论模块等&lt;span style="color:#960050;background-color:#1e0010"&gt;），&lt;/span&gt;一般不需要管&lt;span style="color:#960050;background-color:#1e0010"&gt;；&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;_layouts 存放博客调用的页面模板文件&lt;span style="color:#960050;background-color:#1e0010"&gt;（&lt;/span&gt;比如博客主页&lt;span style="color:#960050;background-color:#1e0010"&gt;、&lt;/span&gt;具体博文页&lt;span style="color:#960050;background-color:#1e0010"&gt;）&lt;/span&gt;的文件夹&lt;span style="color:#960050;background-color:#1e0010"&gt;；&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;css 存放博客系统的页面渲染文档文件夹&lt;span style="color:#960050;background-color:#1e0010"&gt;，&lt;/span&gt;主要用于调节诸如标题字体&lt;span style="color:#960050;background-color:#1e0010"&gt;、&lt;/span&gt;博文字体大小颜色之类&lt;span style="color:#960050;background-color:#1e0010"&gt;；&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;js 存放博客调用的 JS 文档文件夹
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;_posts 博客正文存放的文件夹&lt;span style="color:#960050;background-color:#1e0010"&gt;。&lt;/span&gt;命名有规定&lt;span style="color:#960050;background-color:#1e0010"&gt;，&lt;/span&gt;必须为&lt;span style="color:#960050;background-color:#1e0010"&gt;「&lt;/span&gt;日期 &lt;span style="color:#f92672"&gt;+&lt;/span&gt; 标题&lt;span style="color:#960050;background-color:#1e0010"&gt;」&lt;/span&gt;的模式&lt;span style="color:#960050;background-color:#1e0010"&gt;，&lt;/span&gt;即&lt;span style="color:#960050;background-color:#1e0010"&gt;「&lt;/span&gt;&lt;span style="color:#ae81ff"&gt;2015&lt;/span&gt;&lt;span style="color:#f92672"&gt;-&lt;/span&gt;&lt;span style="color:#ae81ff"&gt;04&lt;/span&gt;&lt;span style="color:#f92672"&gt;-&lt;/span&gt;&lt;span style="color:#ae81ff"&gt;27&lt;/span&gt;&lt;span style="color:#f92672"&gt;-&lt;/span&gt;Like&lt;span style="color:#f92672"&gt;-&lt;/span&gt;Kissing&lt;span style="color:#f92672"&gt;.&lt;/span&gt;md&lt;span style="color:#960050;background-color:#1e0010"&gt;」，&lt;/span&gt;才能发布到博客里&lt;span style="color:#960050;background-color:#1e0010"&gt;；&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;images 图片文件夹&lt;span style="color:#960050;background-color:#1e0010"&gt;，&lt;/span&gt;存放博客相关素材&lt;span style="color:#960050;background-color:#1e0010"&gt;，&lt;/span&gt;包括博客 favicon&lt;span style="color:#960050;background-color:#1e0010"&gt;、&lt;/span&gt;博主头像等图片及博文贴图素材&lt;span style="color:#960050;background-color:#1e0010"&gt;；&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;CNAME 用于绑定个人域名的文档&lt;span style="color:#960050;background-color:#1e0010"&gt;；&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#ae81ff"&gt;404.&lt;/span&gt;html &lt;span style="color:#960050;background-color:#1e0010"&gt;「&lt;/span&gt;&lt;span style="color:#ae81ff"&gt;404&lt;/span&gt; Not Found&lt;span style="color:#f92672"&gt;.&lt;/span&gt;&lt;span style="color:#960050;background-color:#1e0010"&gt;」&lt;/span&gt;站点链接无法访问时的提示页面&lt;span style="color:#960050;background-color:#1e0010"&gt;。&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;About&lt;span style="color:#f92672"&gt;.&lt;/span&gt;html 博客中的个人说明文档&lt;span style="color:#960050;background-color:#1e0010"&gt;（&lt;/span&gt;About Me&lt;span style="color:#960050;background-color:#1e0010"&gt;），&lt;/span&gt;以 html&lt;span style="color:#960050;background-color:#1e0010"&gt;、&lt;/span&gt;md 格式为主&lt;span style="color:#960050;background-color:#1e0010"&gt;；&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;feed&lt;span style="color:#f92672"&gt;.&lt;/span&gt;xml 博客的 RSS 订阅&lt;span style="color:#960050;background-color:#1e0010"&gt;；&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;posts文件夹下用来放博客正文，想写东西了，直接在这里新建文件即可。&lt;/p&gt;
+&lt;h2 id="2-关于posts下博客文件的头部yaml怎么写"&gt;2. 关于posts下博客文件的头部YAML怎么写&lt;/h2&gt;
+&lt;p&gt;这个我不太清楚，目前都写了。&lt;/p&gt;
+&lt;p&gt;是不是不写就不能识别我不太清楚，打算测试一下。&lt;/p&gt;
+&lt;p&gt;测试结果：去掉categories，layout，title，date，都是可以的。其中：&lt;/p&gt;
+&lt;h3 id="1-title如果不写则会被文件名中的title替代"&gt;1. title如果不写，则会被文件名中的title替代&lt;/h3&gt;
+&lt;p&gt;由于不可避免的要是中文做标题，并且如果把中文写到文件名中可能会出意想不到的问题。因此建议还是带上title。&lt;/p&gt;
+&lt;h3 id="2-date如果不写则会被文件名中的date替代"&gt;2. date如果不写，则会被文件名中的date替代&lt;/h3&gt;
+&lt;p&gt;本人对date的需求应该不敏感，比较博客只是记录个大概，有个大概日期即可。&lt;/p&gt;
+&lt;h3 id="3-貌似gitpage的缓存机制会导致一些问题"&gt;3. 貌似Gitpage的缓存机制会导致一些问题&lt;/h3&gt;
+&lt;p&gt;比如我为了测试，搞了很多title一样的博文，最终显示的就乱七八糟的。&lt;/p&gt;
+&lt;h2 id="3-gitpage从commit到网页生效的时间"&gt;3. Gitpage从commit到网页生效的时间&lt;/h2&gt;
+&lt;p&gt;大概是不到30秒钟。&lt;/p&gt;
+&lt;h2 id="4-如果文件头部什么都不写那是如何访问的呢"&gt;4. 如果文件头部什么都不写，那是如何访问的呢？&lt;/h2&gt;
+&lt;p&gt;现在就来测试一下。&lt;/p&gt;
+&lt;p&gt;结果就是访问链接中只有日期和标题。不过这应该是缓存造成的。是之前的测试留下的缓存。&lt;/p&gt;
+&lt;p&gt;记得要刷新网页，只点击网址logo是达不到刷新的目的的。&lt;/p&gt;
+&lt;h2 id="5-换到了academic版的gitpage"&gt;5. 换到了academic版的gitpage&lt;/h2&gt;
+&lt;p&gt;顿时感觉高大上了许多，兼顾文章，报告，博客，简历。感觉非常的不错。&lt;/p&gt;
+&lt;p&gt;后期可以把自己参与的项目也加上。&lt;/p&gt;</description></item><item><title>增值税发票查验平台不显示验证码的原因及解决方式</title><link>http://xuzikuan12.github.io/blog/%E5%A2%9E%E5%80%BC%E7%A8%8E%E5%8F%91%E7%A5%A8%E6%9F%A5%E9%AA%8C%E5%B9%B3%E5%8F%B0%E4%B8%8D%E6%98%BE%E7%A4%BA%E9%AA%8C%E8%AF%81%E7%A0%81%E7%9A%84%E5%8E%9F%E5%9B%A0%E5%8F%8A%E8%A7%A3%E5%86%B3%E6%96%B9%E5%BC%8F/</link><pubDate>Fri, 28 Aug 2020 00:00:00 +0000</pubDate><guid>http://xuzikuan12.github.io/blog/%E5%A2%9E%E5%80%BC%E7%A8%8E%E5%8F%91%E7%A5%A8%E6%9F%A5%E9%AA%8C%E5%B9%B3%E5%8F%B0%E4%B8%8D%E6%98%BE%E7%A4%BA%E9%AA%8C%E8%AF%81%E7%A0%81%E7%9A%84%E5%8E%9F%E5%9B%A0%E5%8F%8A%E8%A7%A3%E5%86%B3%E6%96%B9%E5%BC%8F/</guid><description>&lt;p&gt;查验发票的时候遇到了验证码不显示的问题，一番研究后发现一些可能对以后有帮助的东西，主要是理解一些网络问题，网页交互逻辑之类的。&lt;/p&gt;
+&lt;p&gt;原文链接：&lt;a href="https://www.bianshd.cn/post/11.html"target="_blank" rel="noopener noreferrer"&gt;
+ https://www.bianshd.cn/post/11.html
+&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;在日常工作中，我们经常需要用到国家税务总局的增值税发票查验平台查询发票真伪等信息，但有一些人会发现，即使我们已经按照要求安装好了根证书，自己的浏览器还是显示不出来验证码，但有时候换个浏览器却又能正常显示，稍微注意我们就会发现，出现这种情况的都是谷歌浏览器（chrome）或国产浏览器的用户，而市面绝大多数国产浏览器都把谷歌内核做为其浏览器的默认内核。&lt;/p&gt;
+&lt;p&gt;这是为什么呢？&lt;/p&gt;
+&lt;p&gt;原来，为了让更多用户了解使用SHA-1证书的不安全性和HTTP明文页面的不安全性。自2017年1月底开始，谷歌发布的Chrome 56及其以后版本的浏览器把SHA-1证书显示为“无效HTTPS” ，把涉及敏感信息输入的HTTP页面标记为“HTTP不安全”。而我们的国税总局的发票检验平台虽然采用了HTTPS协议，但其HTTPS证书却采用了SHA-1的加密方式进行加密，被谷歌浏览器或其内核判定为“无效的HTTPS”，在其拉取验证码时进行了阻止。&lt;/p&gt;
+&lt;p&gt;所以，我们要正常使用查验平台，可以采用以下三种方式：&lt;/p&gt;
+&lt;p&gt;一、使用用老版（56及其以前版本）的谷歌或其内核浏览器。&lt;/p&gt;
+&lt;p&gt;二、使用用IE或EDGE浏览器。&lt;/p&gt;
+&lt;p&gt;三、国产浏览器切换到兼容模式（即IE内核，不同浏览器名称可能不同）。&lt;/p&gt;
+&lt;p&gt;当然，如果我们非要用新版谷歌浏览器（也不新了，市面大部分浏览器谷歌内核版本都在56以后了）查发票，也可以做到，方法如下：&lt;/p&gt;
+&lt;p&gt;一、输入完发票代码、发票号码、开票日期等信息后，需要显示验证码时，按F12键，浏览器页面下部（或弹窗）会出现调试窗口。&lt;/p&gt;
+&lt;p&gt;二、鼠标右键点击调试窗口出现的链接，在出现的菜单中点击“Open in new tab”在新选项卡中打开。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://xuzikuan12.github.io/blog/%E5%A2%9E%E5%80%BC%E7%A8%8E%E5%8F%91%E7%A5%A8%E6%9F%A5%E9%AA%8C%E5%B9%B3%E5%8F%B0%E4%B8%8D%E6%98%BE%E7%A4%BA%E9%AA%8C%E8%AF%81%E7%A0%81%E7%9A%84%E5%8E%9F%E5%9B%A0%E5%8F%8A%E8%A7%A3%E5%86%B3%E6%96%B9%E5%BC%8F/201906201561038427135203.png"
+ alt="console.png"
+ 
+&gt;
+&lt;/p&gt;
+&lt;p&gt;三、当新打开页面中出现类似如下一堆字符时，关闭此页面，切换回查询页面，你会发现，验证码已经出现了。经此操作后，只要浏览器程序不退出，就可以任意查询都可以正常显示验证码。当浏览器关闭后再打开，就又得重复此操作步骤了。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://xuzikuan12.github.io/blog/%E5%A2%9E%E5%80%BC%E7%A8%8E%E5%8F%91%E7%A5%A8%E6%9F%A5%E9%AA%8C%E5%B9%B3%E5%8F%B0%E4%B8%8D%E6%98%BE%E7%A4%BA%E9%AA%8C%E8%AF%81%E7%A0%81%E7%9A%84%E5%8E%9F%E5%9B%A0%E5%8F%8A%E8%A7%A3%E5%86%B3%E6%96%B9%E5%BC%8F/201906201561038427512990.png"
+ alt="new tab.png"
+ 
+&gt;
+&lt;/p&gt;</description></item></channel></rss>

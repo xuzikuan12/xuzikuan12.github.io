@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Gitee on XU Academic Research</title><link>http://xuzikuan12.github.io/tags/gitee/</link><description>Recent content in Gitee on XU Academic Research</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Sun, 09 Apr 2023 20:49:43 +0800</lastBuildDate><atom:link href="http://xuzikuan12.github.io/tags/gitee/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo + Gitee 搭建静态网站</title><link>http://xuzikuan12.github.io/blog/hugo-gitee-%E6%90%AD%E5%BB%BA%E9%9D%99%E6%80%81%E7%BD%91%E7%AB%99/</link><pubDate>Sun, 09 Apr 2023 20:49:43 +0800</pubDate><guid>http://xuzikuan12.github.io/blog/hugo-gitee-%E6%90%AD%E5%BB%BA%E9%9D%99%E6%80%81%E7%BD%91%E7%AB%99/</guid><description>&lt;h2 id="依赖"&gt;依赖&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;winget&lt;/strong&gt;：包管理工具，较新的 Windows 系统会自带&lt;br&gt;
+&lt;strong&gt;git&lt;/strong&gt;：版本管理工具&lt;br&gt;
+&lt;strong&gt;gitee&lt;/strong&gt;：仓库托管服务（&lt;a href="gitee.com"&gt;
+ gitee.com
+&lt;/a&gt;
+），可免费开启 Gitee Pages 服务，但是不能自定义域名&lt;br&gt;
+&lt;strong&gt;hugo&lt;/strong&gt;：用来生成静态网站&lt;/p&gt;
+&lt;h2 id="git"&gt;Git&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;winget install git
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;记得添加环境变量&lt;/p&gt;
+&lt;h2 id="gitee"&gt;Gitee&lt;/h2&gt;
+&lt;p&gt;注册一个 Gitee 的账户，新建一个与账户同名的仓库，比如：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;gitee.com/xuzikuan12/xuzikuan12
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;这样就可以直接通过 xuzikuan12.gitee.io 访问自己的静态网站了，否则需要通过 xuzikuan12.gitee.io/[仓库名]/ 来访问了。&lt;/p&gt;
+&lt;h2 id="hugo"&gt;Hugo&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;winget install hugo
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Hugo 的使用可以参考&lt;a href="https://www.gohugo.org/"target="_blank" rel="noopener noreferrer"&gt;
+ 这里
+&lt;/a&gt;
+。&lt;/p&gt;
+&lt;h3 id="安装hugo的主题"&gt;安装Hugo的主题&lt;/h3&gt;
+&lt;p&gt;目前用的是这个主题：&lt;a href="https://themes.gohugo.io/themes/hugo-profile/"target="_blank" rel="noopener noreferrer"&gt;
+ hugo-profile
+&lt;/a&gt;
+&lt;br&gt;
+需要好好阅读主题配置文件，理解里面参数的意义：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;themes&lt;span style="color:#ae81ff"&gt;\h&lt;/span&gt;ugo-profile&lt;span style="color:#ae81ff"&gt;\e&lt;/span&gt;xampleSite&lt;span style="color:#ae81ff"&gt;\c&lt;/span&gt;onfig.yaml
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;可以直接把上述的配置文件拷贝用作自己网站的配置文件&lt;br&gt;
+注意一些静态文件的拷贝&lt;/p&gt;
+&lt;h3 id="预览网站"&gt;预览网站&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;hugo server
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="生成静态网站的文件"&gt;生成静态网站的文件&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;hugo
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;默认会生成在 public 文件夹内&lt;/p&gt;
+&lt;h3 id="利用-git-建立仓库并上传"&gt;利用 Git 建立仓库并上传&lt;/h3&gt;
+&lt;p&gt;将 public 文件夹内的文件打包上传至 Gitee&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git config --global user.name &lt;span style="color:#e6db74"&gt;&amp;#34;xxx&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git config --global user.email &lt;span style="color:#e6db74"&gt;&amp;#34;xxx@xxx.cn&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git init
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git status
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git add .
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git commit -m &lt;span style="color:#e6db74"&gt;&amp;#34;new blog/test.md&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git remote add origin &lt;span style="color:#e6db74"&gt;&amp;#34;https://gitee.com/xuzikuan12/xuzikuan12.git&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git push -u origin &lt;span style="color:#e6db74"&gt;&amp;#34;master&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="开启-gitee-page"&gt;开启 Gitee page&lt;/h3&gt;
+&lt;p&gt;可以参考 &lt;a href="https://gitee.com/help/articles/4136"target="_blank" rel="noopener noreferrer"&gt;
+ 这里
+&lt;/a&gt;
+&lt;/p&gt;</description></item></channel></rss>

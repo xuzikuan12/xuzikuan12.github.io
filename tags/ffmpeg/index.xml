@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ffmpeg on XU Academic Research</title><link>http://xuzikuan12.github.io/tags/ffmpeg/</link><description>Recent content in Ffmpeg on XU Academic Research</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Wed, 12 Apr 2023 17:47:08 +0800</lastBuildDate><atom:link href="http://xuzikuan12.github.io/tags/ffmpeg/index.xml" rel="self" type="application/rss+xml"/><item><title>FFmpeg 使用心得</title><link>http://xuzikuan12.github.io/blog/ffmpeg-%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97/</link><pubDate>Wed, 12 Apr 2023 17:47:08 +0800</pubDate><guid>http://xuzikuan12.github.io/blog/ffmpeg-%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97/</guid><description>&lt;h2 id="依赖"&gt;依赖&lt;/h2&gt;
+&lt;p&gt;FFmpeg&lt;/p&gt;
+&lt;h2 id="安装"&gt;安装&lt;/h2&gt;
+&lt;p&gt;使用 &lt;code&gt;scoop&lt;/code&gt; 和 &lt;code&gt;winget&lt;/code&gt; 均可安装&lt;/p&gt;
+&lt;h2 id="音频转换"&gt;音频转换&lt;/h2&gt;
+&lt;p&gt;批量 &lt;code&gt;ape&lt;/code&gt; 转 &lt;code&gt;mp3&lt;/code&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;@echo off &amp;amp; title
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;for&lt;/span&gt; %%a in &lt;span style="color:#f92672"&gt;(&lt;/span&gt;*.ape&lt;span style="color:#f92672"&gt;)&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;do&lt;/span&gt; &lt;span style="color:#f92672"&gt;(&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; ffmpeg -i &lt;span style="color:#e6db74"&gt;&amp;#34;%%~sa&amp;#34;&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;%%~na.mp3&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;pause
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="提取音频"&gt;提取音频&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;ffmpeg -i input.mp4 -vn -c:a copy output.mp3
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;code&gt;-vn&lt;/code&gt;：no video&lt;br&gt;
+&lt;code&gt;-c:a&lt;/code&gt;：code of audio&lt;br&gt;
+&lt;code&gt;copy&lt;/code&gt;：直接复制视频中的原始音频，不涉及编码，速度会很快&lt;/p&gt;
+&lt;h2 id="减小视频体积"&gt;减小视频体积&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;ffmpeg -i input.mp4 -fs 500MB output.mp4
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;ffmpeg -i input.mp4 -r &lt;span style="color:#ae81ff"&gt;20&lt;/span&gt; output.mp4
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;ffmpeg -i input.mp4 -b:v 1000K output.mp4
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;ffmpeg -i input.mp4 -s 1280x720 output.mp4
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;code&gt;-fs&lt;/code&gt;：控制输出文件体积&lt;br&gt;
+&lt;code&gt;-r&lt;/code&gt;：控制帧率&lt;br&gt;
+&lt;code&gt;-b:v&lt;/code&gt;：控制输出视频码率&lt;br&gt;
+&lt;code&gt;-b:a&lt;/code&gt;：控制输出音频码率&lt;br&gt;
+&lt;code&gt;-s&lt;/code&gt;：控制视频分辨率&lt;/p&gt;
+&lt;h2 id="裁剪视频"&gt;裁剪视频&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;ffmpeg -i .&lt;span style="color:#ae81ff"&gt;\2&lt;/span&gt;-1.mp4 -vf crop&lt;span style="color:#f92672"&gt;=&lt;/span&gt;1440:666:0:27 2-1-crop.mp4
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;ffmpeg -i test.mp4 -vf crop=x1:x2:x3:x4 testOK.mp4
+&lt;code&gt;x1&lt;/code&gt;: 输出的宽度，即视频像素宽度
+&lt;code&gt;X2&lt;/code&gt;: 输出的高度，即视频像素高度&lt;br&gt;
+&lt;code&gt;x3&lt;/code&gt;: 需要左边和右边移动的距离，例如5，即左右各扩大5pixe1&lt;br&gt;
+&lt;code&gt;x4&lt;/code&gt;: 需要上下移动的距离，例如5，即上下各扩大5pixel&lt;br&gt;
+&lt;code&gt;x3&lt;/code&gt;的值如果大于&lt;code&gt;x1&lt;/code&gt;与原始视频的宽度差，则只移动&lt;code&gt;x1&lt;/code&gt;与原始视频的宽度差的距离&lt;br&gt;
+&lt;code&gt;x4&lt;/code&gt;的值如果大于&lt;code&gt;x2&lt;/code&gt;与原始视频的高度差，则只移动&lt;code&gt;x2&lt;/code&gt;与原始视频的高度差的距离&lt;br&gt;
+去黑边切去的是画面区域的右侧和下侧。
+&lt;a href="https://blog.csdn.net/starandsea/article/details/121183546"target="_blank" rel="noopener noreferrer"&gt;
+ 【FFmpeg】【gif】命令行工具，将视频转为gif
+&lt;/a&gt;
+&lt;/p&gt;</description></item></channel></rss>

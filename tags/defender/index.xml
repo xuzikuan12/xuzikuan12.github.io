@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Defender on XU Academic Research</title><link>http://xuzikuan12.github.io/tags/defender/</link><description>Recent content in Defender on XU Academic Research</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Thu, 03 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://xuzikuan12.github.io/tags/defender/index.xml" rel="self" type="application/rss+xml"/><item><title>Windows defender 使用心得</title><link>http://xuzikuan12.github.io/blog/windows-defender-%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97/</link><pubDate>Thu, 03 Sep 2020 00:00:00 +0000</pubDate><guid>http://xuzikuan12.github.io/blog/windows-defender-%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97/</guid><description>&lt;p&gt;电脑日常裸奔，所以希望能够利用好自带的defender。&lt;/p&gt;
+&lt;h2 id="1-文件夹限制访问"&gt;1. 文件夹限制访问&lt;/h2&gt;
+&lt;p&gt;&lt;img src="http://xuzikuan12.github.io/blog/windows-defender-%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97/1.png"
+ alt="folder limit"
+ 
+&gt;
+&lt;/p&gt;
+&lt;p&gt;希望可以通过这个功能来防止病毒篡改系统文件。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://xuzikuan12.github.io/blog/windows-defender-%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97/2.png"
+ alt="folder limit"
+ 
+&gt;
+&lt;/p&gt;
+&lt;p&gt;默认会保护Windows系统文件夹，同时还是添加User文件夹。&lt;/p&gt;
+&lt;p&gt;我自己添加了自己的工作文件。&lt;/p&gt;
+&lt;p&gt;这时一些工作要用的软件会被defender限制访问，可以通过添加允许来保证正常使用。&lt;/p&gt;
+&lt;p&gt;但是，如果是代码脚本运行的话，会报错，尝试了添加python.exe，代码可以正常使用。&lt;/p&gt;
+&lt;p&gt;但是*2，git不能用，结果都不行。看这报错。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://xuzikuan12.github.io/blog/windows-defender-%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97/3.png"
+ alt="error"
+ 
+&gt;
+&lt;/p&gt;
+&lt;p&gt;后来想起来，我用scoop管理软件，默认目录是current连接符，而不是真实的目录。&lt;/p&gt;
+&lt;p&gt;于是一波添加，问题解决。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://xuzikuan12.github.io/blog/windows-defender-%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97/4.png"
+ alt="exception"
+ 
+&gt;
+&lt;/p&gt;</description></item></channel></rss>

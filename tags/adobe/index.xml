@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Adobe on XU Academic Research</title><link>http://xuzikuan12.github.io/tags/adobe/</link><description>Recent content in Adobe on XU Academic Research</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 26 May 2023 14:11:01 +0800</lastBuildDate><atom:link href="http://xuzikuan12.github.io/tags/adobe/index.xml" rel="self" type="application/rss+xml"/><item><title>Acrobat</title><link>http://xuzikuan12.github.io/blog/acrobat/</link><pubDate>Fri, 26 May 2023 14:11:01 +0800</pubDate><guid>http://xuzikuan12.github.io/blog/acrobat/</guid><description>&lt;h2 id="印前检查"&gt;印前检查&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://blog.csdn.net/qq_40692274/article/details/124990326"target="_blank" rel="noopener noreferrer"&gt;
+ Adobe Acrobat 报错处理：无法处理页面，因为“页面捕捉”识别服务发生错误
+&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;新版的 64 位 AcrobatQ 2022 基本上都报错，原因是安装时没有选择&amp;quot;印前检查&amp;quot;服务&lt;br&gt;
+(1) 有安装包的小伙伴直接打开安装包，然后参考 (3) ;&lt;br&gt;
+(2) 没有安装包的小伙伴进入 控制面板 -&amp;gt; 软件卸载界面，选中Acrobat右键-&amp;gt;&amp;ldquo;更改&amp;rdquo;(不是卸载，是更改!)再进行(3);&lt;br&gt;
+(3) 选择&amp;quot;安装&amp;quot;，然后&amp;quot;下一步&amp;quot;，在自定义安装界面，把&amp;quot;可选功能&amp;quot;和&amp;quot;印前检查&amp;quot;两项都选中即可，完成安装就能解决问题。&lt;/p&gt;</description></item></channel></rss>

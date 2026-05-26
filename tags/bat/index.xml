@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Bat on XU Academic Research</title><link>http://xuzikuan12.github.io/tags/bat/</link><description>Recent content in Bat on XU Academic Research</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Mon, 31 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://xuzikuan12.github.io/tags/bat/index.xml" rel="self" type="application/rss+xml"/><item><title>Windows 的 bat 的使用</title><link>http://xuzikuan12.github.io/blog/windows-%E7%9A%84-bat-%E7%9A%84%E4%BD%BF%E7%94%A8/</link><pubDate>Mon, 31 Aug 2020 00:00:00 +0000</pubDate><guid>http://xuzikuan12.github.io/blog/windows-%E7%9A%84-bat-%E7%9A%84%E4%BD%BF%E7%94%A8/</guid><description>&lt;p&gt;bat 作为批处理非常常用。&lt;/p&gt;
+&lt;p&gt;在使用过程中经常遇到一些问题，或者从偶尔别处会习得一些小技巧。&lt;/p&gt;
+&lt;p&gt;但自己毕竟不是吃这碗饭的，多日不用就会忘记，因此需要“记录在案”。&lt;/p&gt;
+&lt;h2 id="1-关于-"&gt;1. 关于 &amp;lt;&lt;/h2&gt;
+&lt;p&gt;不知道是我书读的少，还是大家觉得&amp;lt;的使用太基础了，大家都不讲这东西。应该还是前者吧。&lt;/p&gt;
+&lt;p&gt;当你在 cmd 中运行一个程序或者脚本的时候，有时在过程中还会让你输入一些参数，当这些参数有规律且重复又巨量的时候，手动输入会变得很煎熬。&lt;/p&gt;
+&lt;p&gt;这时可以用 &amp;lt; 来指定&lt;strong&gt;某文件&lt;/strong&gt;作为输入。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;某文件&lt;/strong&gt;中按行来存储参数。&lt;/p&gt;
+&lt;p&gt;比如&lt;strong&gt;某 b站下载脚本&lt;/strong&gt;就需要以下参数：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;文件名：unattended.txt
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;----------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;https://space.bilibili.com/5900635/video
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;a
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;y
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#ae81ff"&gt;3&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;y
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;y
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;y
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;只要再新建一个 bat 文件写上如下代码：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;文件名：unattended.bat
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;start.exe&amp;lt;unattended.txt
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;以后只要双击运行 unattended.bat 即可。&lt;/p&gt;</description></item></channel></rss>

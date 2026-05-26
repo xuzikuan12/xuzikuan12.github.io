@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Word on XU Academic Research</title><link>http://xuzikuan12.github.io/tags/word/</link><description>Recent content in Word on XU Academic Research</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Tue, 25 Apr 2023 12:38:47 +0800</lastBuildDate><atom:link href="http://xuzikuan12.github.io/tags/word/index.xml" rel="self" type="application/rss+xml"/><item><title>Word 使用技巧</title><link>http://xuzikuan12.github.io/blog/word-%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/</link><pubDate>Tue, 25 Apr 2023 12:38:47 +0800</pubDate><guid>http://xuzikuan12.github.io/blog/word-%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/</guid><description>&lt;p&gt;科研写作中遇到的一些 Word 小技巧，可以提高效率。&lt;/p&gt;
+&lt;h2 id="word-下标替换该怎么操作"&gt;Word 下标替换该怎么操作&lt;/h2&gt;
+&lt;p&gt;原文链接：&lt;a href="https://m.huke88.com/baike/a30034/"target="_blank" rel="noopener noreferrer"&gt;
+ Word下标替换该怎么操作
+&lt;/a&gt;
+&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code class="language-cite" data-lang="cite"&gt;1、首先,我们打开需要操作的Word文档;我们的目标是:在word中,SO2的2全替换成下标的2。 
+2、我们需要选中其中一个SO2后面的2;然后,点击【开始】选项卡中的【下标】,(红色箭头所指出)将其设置为下标。 
+3、接着,我们选中设置为下标格式的SO2。 
+4、按下组合键【Ctrl+H】打开【查找和替换】的对话框;接着,我们点击【全部替换】即可。（注意：^c则表示替换为粘贴板的内容，即将普通的SO2替换为下表格式的） 
+5、返回主文档，发现成功将文档全部SO2替换为下标格式的2。操作完成！
+
+这就是word下标替换的方法，你们学会了吗？还不会的同学一定要好好学习。要知道，现在各种方案或者技术标的内容中，都会涉及到平方、立方的单位符号，也就是我所说的上标符号；因为需要单独设置字体格式，所以一般输入都按正常字体输入m2、m3，这样表达不太标准，所以，我们只要学会了今天分享的课程，操作起来就会很简单啦！下次再见！
+&lt;/code&gt;&lt;/pre&gt;</description></item></channel></rss>

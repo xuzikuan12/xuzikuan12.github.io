@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Office on XU Academic Research</title><link>http://xuzikuan12.github.io/tags/office/</link><description>Recent content in Office on XU Academic Research</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Wed, 10 May 2023 12:47:00 +0800</lastBuildDate><atom:link href="http://xuzikuan12.github.io/tags/office/index.xml" rel="self" type="application/rss+xml"/><item><title>PPT 使用心得</title><link>http://xuzikuan12.github.io/blog/ppt-%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97/</link><pubDate>Wed, 10 May 2023 12:47:00 +0800</pubDate><guid>http://xuzikuan12.github.io/blog/ppt-%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97/</guid><description>&lt;h2 id="ppt-中文本框的默认字体"&gt;PPT 中文本框的默认字体&lt;/h2&gt;
+&lt;p&gt;第一步，找个空白页建一个文本框&lt;br&gt;
+第二步，给文本框里的字体调整成你想要的字体和格式&lt;br&gt;
+第三步，右键点击文本框，在弹出的选项栏中找到“设置为默认文本框”&lt;br&gt;
+这样后期增加的任何文本都是你想要的字体格式了&lt;br&gt;
+&lt;a href="https://www.zhihu.com/people/li-sir-71-40"target="_blank" rel="noopener noreferrer"&gt;
+ @李Sir
+&lt;/a&gt;
+&lt;/p&gt;</description></item><item><title>Word 使用技巧</title><link>http://xuzikuan12.github.io/blog/word-%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/</link><pubDate>Tue, 25 Apr 2023 12:38:47 +0800</pubDate><guid>http://xuzikuan12.github.io/blog/word-%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/</guid><description>&lt;p&gt;科研写作中遇到的一些 Word 小技巧，可以提高效率。&lt;/p&gt;
+&lt;h2 id="word-下标替换该怎么操作"&gt;Word 下标替换该怎么操作&lt;/h2&gt;
+&lt;p&gt;原文链接：&lt;a href="https://m.huke88.com/baike/a30034/"target="_blank" rel="noopener noreferrer"&gt;
+ Word下标替换该怎么操作
+&lt;/a&gt;
+&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code class="language-cite" data-lang="cite"&gt;1、首先,我们打开需要操作的Word文档;我们的目标是:在word中,SO2的2全替换成下标的2。 
+2、我们需要选中其中一个SO2后面的2;然后,点击【开始】选项卡中的【下标】,(红色箭头所指出)将其设置为下标。 
+3、接着,我们选中设置为下标格式的SO2。 
+4、按下组合键【Ctrl+H】打开【查找和替换】的对话框;接着,我们点击【全部替换】即可。（注意：^c则表示替换为粘贴板的内容，即将普通的SO2替换为下表格式的） 
+5、返回主文档，发现成功将文档全部SO2替换为下标格式的2。操作完成！
+
+这就是word下标替换的方法，你们学会了吗？还不会的同学一定要好好学习。要知道，现在各种方案或者技术标的内容中，都会涉及到平方、立方的单位符号，也就是我所说的上标符号；因为需要单独设置字体格式，所以一般输入都按正常字体输入m2、m3，这样表达不太标准，所以，我们只要学会了今天分享的课程，操作起来就会很简单啦！下次再见！
+&lt;/code&gt;&lt;/pre&gt;</description></item><item><title>office未获得合适的许可，你可能是盗版软件的受害者</title><link>http://xuzikuan12.github.io/blog/office%E6%9C%AA%E8%8E%B7%E5%BE%97%E5%90%88%E9%80%82%E7%9A%84%E8%AE%B8%E5%8F%AF%E4%BD%A0%E5%8F%AF%E8%83%BD%E6%98%AF%E7%9B%97%E7%89%88%E8%BD%AF%E4%BB%B6%E7%9A%84%E5%8F%97%E5%AE%B3%E8%80%85/</link><pubDate>Tue, 18 May 2021 00:00:00 +0000</pubDate><guid>http://xuzikuan12.github.io/blog/office%E6%9C%AA%E8%8E%B7%E5%BE%97%E5%90%88%E9%80%82%E7%9A%84%E8%AE%B8%E5%8F%AF%E4%BD%A0%E5%8F%AF%E8%83%BD%E6%98%AF%E7%9B%97%E7%89%88%E8%BD%AF%E4%BB%B6%E7%9A%84%E5%8F%97%E5%AE%B3%E8%80%85/</guid><description>&lt;p&gt;Office 2016-2019 等版本用 KMSpico 等小软件激活的虽然激活了但还是提示你可能是盗版软件的受害者，这样操作免干扰：打开 OFFICE 的某个子软件，比如 PowerPoint， 菜单里这样找： 文件/账户, 在账户隐私 下面点 “管理设置” 进入管理界面， 找到最下面的 “所有连接体验”， 把“启动连接体验” 前的小勾取消它来禁用， 再关掉 PowerPoint 后再进，就没有那个盗版提示了。&lt;/p&gt;
+&lt;p&gt;原文链接：&lt;a href="https://zhuanlan.zhihu.com/p/371778517"target="_blank" rel="noopener noreferrer"&gt;
+ 知乎专栏
+&lt;/a&gt;
+&lt;/p&gt;</description></item></channel></rss>
